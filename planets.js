@@ -1,13 +1,10 @@
 //Letrehoz egy 8 elemu tombot, mert egyelöre csak a naprendszerben lehet majd baszodni
 var planets = new Array(8);
-var techpoint = 0;
 var indexPlanet = 0;
 
 if (planets[0] == null) {
     buyPlanet();
 }
-
-
 
 /*
 IDEIGLENES, EMG KELL CSINALNI AZ ÖSSZES BOLYGÓRA
@@ -45,8 +42,7 @@ amig nem talál üres elemet a 'continents[]' tömbben (ugye még nem fedezte fe
 Ez csak egy ideiglenes egyenlet vszeg, lehet lesz uj. 
 */
 //2021.01.16: Kicsit átmókoltam, töröltem belőle a continents[x]-eket, meg egy két dolgot, majd itt fölül is átírom ha lesz kedvem.
-
-var childInterval = setInterval(makingChildren, 1000);
+var childInterval = setInterval(makingChildren, temp.childInt);
 function makingChildren() {
     var i = 0;
     while (planets[i] != null) {

@@ -27,11 +27,14 @@ function openSubTab(evt, tabName) {
     evt.currentTarget.className += " active";
 }
 
+
 class planet {
-    constructor(population, maxpopulation, fertility) {
+    constructor(population, maxpopulation, fertility, resources, mineRate) {
         this.population = 2;
         this.maxpopulation = 100;
         this.fertility = 0.01;
+        this.resources = 10000;
+        this.mineRate = 0;
     }
 }
 
@@ -40,4 +43,20 @@ class permanent {
     constructor() {
 
     }
+}
+
+class temporary {
+    constructor(childInt, childIntCost, childIntCount, childIntMax, technologyCost) {
+        this.childInt = 1000;
+        this.childIntCost = 10;
+        this.childIntCount = 0;
+        this.childIntMax = 50;
+        this.technologyCost = 1000;
+    }
+}
+var temp = new temporary();
+
+function unlockTab(tab) {
+    if (tab == "TabTech")
+        document.getElementById("TabTech").hidden = false;
 }

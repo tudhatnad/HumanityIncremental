@@ -5,13 +5,11 @@ body {
     margin-right: 250px;
     margin-top: 50px;
 }
-
 .stat {
     margin: 0 auto;
     width: 100%;
     text-align: left;
 }
-
 .tablinks {
     height: 30px;
     font-weight: bold;
@@ -24,52 +22,52 @@ body {
     border: 1px black solid;
 }
 
-.exploresEnabled {
+.treeEnabled {
     width: 150px;
     height: 100px;
     font-size: 0.75pc;
     font-weight: bold;
     border-radius: 3px;
     text-align: center;
-    border: 1px black solid;
+    border: 2px black solid;
     background-color: #ffffff;
     color: black;
 }
-.exploresEnabled:hover {
+.treeEnabled:hover {
     width: 150px;
     height: 100px;
     font-size: 0.75pc;
     font-weight: bold;
     border-radius: 3px;
     text-align: center;
-    border: 1px black solid;
+    border: 2px black solid;
     background-color: rgb(14, 199, 54);
     color: black;
 }
-.exploresDisabled {
+.treeDisabled {
     width: 150px;
     height: 100px;
     font-size: 0.75pc;
     font-weight: bold;
     border-radius: 3px;
     text-align: center;
-    border: 1px black solid;
+    border: 2px black solid;
     background-color: rgb(141, 140, 140);
     color: black;
 }
-.exploresBought {
+.treeBought {
     width: 150px;
     height: 100px;
     font-size: 0.75pc;
     font-weight: bold;
     border-radius: 3px;
     text-align: center;
-    border: 1px black solid;
+    border: 2px black solid;
     background-color: green;
     color: black;
 }
 
-.upgbtn {
+.prestbtn {
     width: 125px;
     height: 30px;
     font-size: 1pc;
@@ -81,8 +79,49 @@ body {
     color: black;
 }
 
-#exploreTree {
+.upgbtn {
+    width: 200px;
+    height: 100px;
+    font-size: 0.70pc;
+    font-weight: bold;
+    border-radius: 3px;
     text-align: center;
+    border: 2px black solid;
+    background-color: #ffffff;
+    color: black;
+    margin: 5px;
+}
+.upgbtnDisabled {
+    width: 200px;
+    height: 100px;
+    font-size: 0.70pc;
+    font-weight: bold;
+    border-radius: 3px;
+    text-align: center;
+    border: 2px black solid;
+    background-color: green;
+    color: black;
+    margin: 5px;
+}
+.upgbtn:hover {
+    width: 200px;
+    height: 100px;
+    font-size: 0.70pc;
+    font-weight: bold;
+    border-radius: 3px;
+    text-align: center;
+    border: 2px black solid;
+    background-color: rgb(14, 199, 54);
+    color: black;
+    margin: 5px;
+}
+
+#container {
+    padding: 20px;
+}
+
+.skillTree {
+    text-align: center; 
 }
 
 .optbtn {
@@ -99,5 +138,3 @@ body {
 .optbtn:hover {
     border: 2px black solid;
 }
-
-
